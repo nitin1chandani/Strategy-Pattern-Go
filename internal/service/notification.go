@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	constants "go-strategy-pattern/lib"
+	constants "go-strategy-pattern/internal"
 )
 
 func Notify(notificationType, message string) {

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-strategy-pattern/service"
+	"go-strategy-pattern/internal/service"
 )
 
 func main() {
