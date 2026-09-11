@@ -1,3 +1,5 @@
+MY THOUGHT PROCESS WHILE SOLVING THE PROBLEM
+
 you are building a notification service - strategy pattern
 
 - need to send notification using diff methods
@@ -5,3 +7,17 @@ you are building a notification service - strategy pattern
     2. SMS
     3. Push Notification
 - normal if else is not extendable - it is tightly coupled - we have to make it extendable - decoupled
+
+
+What is the problem with raw implementation?
+- all the logic is placed directly under notify func 
+  so if we add another notification type like whatsapp or something
+  then this central function grows.
+- notify is tightly coupled with logic of each type 
+- every single time we make a change in logic this becomes the place where we need to change.
+
+
+solution
+- you create a strategy contract (interface) (kind of goal)
+- then you create concrete strategies (like way to achieve goal)
+- create context or you say now need to apply strategy
