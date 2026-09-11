@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	. "go-strategy-pattern/internal/service"
+	. "go-strategy-pattern/internal/service/notification"
 )
 
 func main() {
