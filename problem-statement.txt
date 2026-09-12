@@ -1,5 +1,7 @@
 MY THOUGHT PROCESS WHILE SOLVING THE PROBLEM
 
+
+Problem 1
 you are building a notification service - strategy pattern
 
 - need to send notification using diff methods
@@ -21,3 +23,17 @@ solution
 - you create a strategy contract (interface) (kind of goal)
 - then you create concrete strategies (like way to achieve goal)
 - create context or you say now need to apply strategy
+
+
+Problem 2
+Problem: Payment Processing
+
+You are building an e-commerce checkout system.
+
+A customer can pay for an order using:
+
+UPI
+Credit/Debit Card
+Net Banking
+
+Each payment method has its own way of processing the payment.
